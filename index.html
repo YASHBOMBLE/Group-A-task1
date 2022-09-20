@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<htm>
 
 <head>
     <title>Ecommerce site</title>
     <style>
         body {
             background-color: antiquewhite;
-
         }
 
         .topnav {
@@ -14,9 +13,7 @@
             background-color: aquamarine;
             position: sticky;
             top: 0px;
-
             display: flex;
-
         }
 
         .topnav a {
@@ -27,7 +24,6 @@
             text-decoration: none;
             font-size: 20px;
             position: relative;
-
             left: 520px;
         }
 
@@ -58,12 +54,10 @@
             padding: 9px;
             margin-left: 700px;
             cursor: pointer;
-
         }
 
         .cart {
             padding: 9px;
-
             clip-rule: pointer;
             height: 30px;
             cursor: pointer;
@@ -77,8 +71,8 @@
         }
 
         .img-container {
-            margin-left: 70%;
-       
+            margin-left: 60%;
+
 
         }
 
@@ -87,19 +81,22 @@
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
             color: chartreuse;
-           
+
 
         }
-        .info{
+
+        .info {
             position: relative;
             top: 150px;
             left: 120px;
         }
-        .product-info{
+
+        .product-info {
             font-size: 20px;
             word-spacing: 3px;
         }
-        del{
+
+        del {
             background-color: red;
             padding: 4px;
             height: auto;
@@ -107,15 +104,17 @@
             color: aliceblue;
 
         }
-        b{
+
+        b {
             background-color: gray;
             padding: 4px;
             height: auto;
             border-radius: 10px;
             color: aliceblue;
         }
-        .btn{
-            width:200px;
+
+        .btn {
+            width: 200px;
             height: 50px;
             background-color: palevioletred;
             border-radius: 10px;
@@ -126,24 +125,104 @@
             margin: 10px;
             cursor: pointer;
         }
-        .g-info{
+        .btn:hover {
+            width: 210px;
+            height: 55px;
+            background-color: palevioletred;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 2px #808080;
+            font-size: 15px;
+            font-weight: bold;
+            color: aliceblue;
+            margin: 10px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .g-info {
             text-decoration: none;
             color: black;
         }
-        .delivary{
+
+        .delivary {
             display: inline-block;
-            width:100%;
-            height: 150px;
-            background-color: white;
-           margin-top: 30px;
+            width: 100%;
+            height: 100px;
+            background-color: whitesmoke;
+            margin-top: 30px;
             padding: 10px;
             border-radius: 10px;
+
         }
-        .f-img{
+
+        .f-img {
             height: 70px;
-            margin-left: 90px;
-            margin: 10px;
+            margin-left: 70px;
+            
         }
+
+        .popular {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .mpp {
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+        .card-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .card{
+            background-color: antiquewhite;
+            border: 0.5px solid black;
+            height: 460px;
+            width: 300px;
+            box-shadow: 0px 0px 5px 3px #808080;
+            padding: 10px;
+            
+        }
+        .card-txt{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .mpp-product{
+            text-decoration: none;
+            color: burlywood;
+        }
+      
+        .bg-color{
+            background-color:  #cc0000;
+        }
+
+
+        
+    .container {
+        margin-top: 30px;
+        background-color: antiquewhite;
+        width: 320px;
+        display: inline-block;
+        height: 480px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    .STORE a{
+        background-color: 	 #4d0000;
+        color: aliceblue;
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+ .str{
+    margin-top: 30px;
+ }
+    
     </style>
 </head>
 
@@ -167,22 +246,23 @@
     </div>
     <div class="info">
         <span class="container-txt">Spacial offer on Sale </span>
-        <br/>
-        <br/>
-        <span class="product-info">realme Book(slim) Core i3 11th Gen - (8 GB/256 Gb SSD /Windows 10 Home) <br/>RMNB1001 Thin and Light Laptop (14 inch,Real Gray, 1.38 kg With Ms Office )
-        <br/>
-        <br/>
-        Special Prize Only at ₹34,999 /- <del>₹54,999</del>
-        <b>36% off</b>
-        <br/>
-        <br/>
-        <b>4.4 ★</b>
-     
-        
-        <button class="btn">
-            Buy Now
-        </button>
-        <a href="#watch" class="g-info">Get more info</a>
+        <br />
+        <br />
+        <span class="product-info">realme Book(slim) Core i3 11th Gen - (8 GB/256 Gb SSD /Windows 10 Home)
+            <br />RMNB1001 Thin and Light Laptop (14 inch,Real Gray, 1.38 kg With Ms Office )
+            <br />
+            <br />
+            Special Prize Only at ₹34,999 /- <del>₹54,999</del>
+            <b>36% off</b>
+            <br />
+            <br />
+            <b>4.4 ★</b>
+
+
+            <button class="btn">
+                Buy Now
+            </button>
+            <a href="#watch" class="g-info">Get more info</a>
         </span>
     </div>
 
@@ -190,23 +270,123 @@
 
 
 
-        <img src="https://rukminim1.flixcart.com/image/416/416/ksez24w0/computer/u/2/h/rmnb1001-thin-and-light-laptop-realme-original-imag5zhgby9wed5u.jpeg?q=70" />
+        <img
+            src="https://rukminim1.flixcart.com/image/416/416/ksez24w0/computer/u/2/h/rmnb1001-thin-and-light-laptop-realme-original-imag5zhgby9wed5u.jpeg?q=70" />
 
 
 
     </div>
 
-<div class="delivary">
-    <div>
-    <img src="./img/delivery-truck.png" class="f-img"/>
-    <span style="font-size: 27px; font-weight:bold;">Fastest Delivary</span>
-    <br/>
-    <span style="font-weight:bold;">Fastest delivary at your doorestep</span>&nbsp;&nbsp;|
- </div>
-    <div>
-        
+    <div class="delivary">
+
+        <img src="./img/delivery-truck.png" class="f-img" />
+
+        <span style="font-size: 27px; font-weight:bold;">Fastest Delivary</span>
+
+        <span style="font-weight:bold;">Fastest delivary at your doorestep</span>&nbsp;&nbsp;|
+
+
+        <img src="./img/free-delivery.png" class="f-img" />
+        <span style="font-size: 27px; font-weight:bold;">Free return |</span>
+        <img src="./img/24-hours-support.png" class="f-img" />
+        <span style="font-size: 27px; font-weight:bold; margin: 20px;">24 / 7 support |</span>
+
+
+    </div>
+    <div class="popular">
+        <span class="mpp">Most Popular Product</span>
+        <span style="font-family: sans-serif; font-weight:bold;">&nbsp;&nbsp;&nbsp;Our most Popular Product is here
+            ...!</span>
     </div>
 
+
+<div align="center">
+
+    <div class="container">
+        <div class="card">
+            <div align="center">
+       <img src="https://rukminim1.flixcart.com/image/416/416/l1b1oy80/computer/x/r/s/book-prime-thin-and-light-laptop-realme-original-imagcwmcxdwr4rvh.jpeg?q=70" height="150px"/>
+       </div>
+       <br/>
+       <span class="card-txt"><a href="#Info" class="mpp-product">realme Book Prime Core i5 11 th Genaration- (16 GB/512 GB SSD/Windows 11 Home) CloudPro002 Thin and Light Laptop  (14 inch, Green, 1.37 kg, With MS Office)</a></span>
+      <br/>
+      <br/>
+       <span style="font-weight: bold; font-size:20px">Only at : ₹59,990</span>
+       <del>₹74,999</del>
+       <b>20% off</b>
+       <br/>
+       <b>4.2 ★</b>
+       <br/>
+       <div align="center">
+       <button class="btn crt">
+
+        <img src="./img/shopping-cart.png" height="25px"/>
+         &nbsp;&nbsp;Add to Cart
+       </button>
+       </div>
+    </div>
+    </div>
+
+
+    
+    <div class="container">
+        <div class="card">
+            <div align="center">
+       <img src="https://rukminim1.flixcart.com/image/416/416/kuwzssw0/computer/o/i/j/rmnb1002-thin-and-light-laptop-realme-original-imag7xdzrygqxndn.jpeg?q=70" height="150px"/>
+       </div>
+       <br/>
+       <span class="card-txt"><a href="#Info" class="mpp-product">realme Book(Slim) Intel Evo Core i5 11th Gen - (8 GB/512 GB SSD/Windows 10 Home) RMNB1002 Thin and Light Laptop  (14 inch, Real Blue, 1.38 kg, With MS Office)</a></span>
+      <br/>
+      <br/>
+       <span style="font-weight: bold; font-size:20px">Only at : ₹41,990</span>
+       <del>₹59,990</del>
+       <b>40% off</b>
+       <br/>
+       <b>4.7 ★</b>
+       <br/>
+       <div align="center">
+       <button class="btn crt bg-color">
+
+        <img src="./img/shopping-cart.png" height="25px"/>
+         &nbsp;&nbsp;Add to Cart
+       </button>
+       </div>
+    </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="card">
+            <div align="center">
+       <img src="https://rukminim1.flixcart.com/image/416/416/ksez24w0/computer/v/b/y/rmnb1001-thin-and-light-laptop-realme-original-imag5zhgw27k4tbb.jpeg?q=70" height="150px"/>
+       </div>
+       <br/>
+       <span class="card-txt"><a href="#Info" class="mpp-product">realme Book (Slim) Core i3 11th Gen - (8 GB/256 GB SSD/Windows 10 Home) RMNB1001 Thin and Light Laptop  (14 inch, Real Gray, 1.38 kg, With MS Office)</a></span>
+      <br/>
+      <br/>
+       <span style="font-weight: bold; font-size:20px">Only at : ₹34,999</span>
+       <del>₹54,999</del>
+       <b>36% off</b>
+       <br/>
+       <b>4.1 ★</b>
+       <br/>
+       <div align="center">
+       <button class="btn crt bg-color">
+
+        <img src="./img/shopping-cart.png" height="25px"/>
+         &nbsp;&nbsp;Add to Cart
+       </button>
+       </div>
+    </div>
+    
+    </div>
+ 
+    </div>
+<div class="str">
+    <div align="center">
+        <span class="STORE"><a href="#store">Check out our store -></a></span>
+    </div>
 </div>
 </body>
 
