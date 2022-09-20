@@ -1,40 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Ecommerce site</title>
     <style>
+        body {
+            background-color: antiquewhite;
+
+        }
+
         .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    top: 0px;
-}
+            overflow: hidden;
+            background-color: aquamarine;
+            position: sticky;
+            top: 0px;
 
-.topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+            display: flex;
 
-.topnav a:hover {
-    background-color: orange;
-    color: black;
-}
+        }
 
+        .topnav a {
 
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            position: relative;
+
+            left: 520px;
+        }
+
+        .topnav a:hover {
+            background-color: orange;
+            color: #4d4d00;
+        }
+
+        a:active {
+            background-color: orange;
+            color: #4d4d00;
+        }
+
+        .logo {
+            width: 55px;
+            margin-left: 20px
+        }
+
+        .B-name {
+            font-weight: bold;
+            font-size: 30px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 10px;
+        }
+
+        .search {
+            padding: 9px;
+            margin-left: 700px;
+            cursor: pointer;
+
+        }
+
+        .cart {
+            padding: 9px;
+
+            clip-rule: pointer;
+            height: 30px;
+            cursor: pointer;
+        }
+
+        .mnu {
+            font-size: 20px;
+            padding: 15px;
+            font-weight: lighter;
+            cursor: pointer;
+        }
+
+        .img-container {
+            margin-left: 70%;
+       
+
+        }
+
+        .container-txt {
+            font-size: 35px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            color: chartreuse;
+           
+
+        }
+        .info{
+            position: relative;
+            top: 150px;
+            left: 120px;
+        }
+        .product-info{
+            font-size: 20px;
+            word-spacing: 3px;
+        }
+        del{
+            background-color: red;
+            padding: 4px;
+            height: auto;
+            border-radius: 10px;
+            color: aliceblue;
+
+        }
+        b{
+            background-color: gray;
+            padding: 4px;
+            height: auto;
+            border-radius: 10px;
+            color: aliceblue;
+        }
+        .btn{
+            width:200px;
+            height: 50px;
+            background-color: palevioletred;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 2px #808080;
+            font-size: 15px;
+            font-weight: bold;
+            color: aliceblue;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .g-info{
+            text-decoration: none;
+            color: black;
+        }
+        .delivary{
+            display: inline-block;
+            width:100%;
+            height: 150px;
+            background-color: white;
+           margin-top: 30px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .f-img{
+            height: 70px;
+            margin-left: 90px;
+            margin: 10px;
+        }
     </style>
 </head>
+
 <body>
-     <div class="topnav">
+
+    <div class="topnav">
+        <img src="./img/notebook.png" class="logo" />
+
+
+        <span class="B-name">Lapshop</span>
         <a class="active" href="#home">Home</a>
-        <a href="./C-programing/c-intro.html">C programing</a>
-        <a href="#contact">Python</a>
-        <a href="./java_programing/intro.html">Java programing </a>
-        <a href="./Contact-form/contact-us.html"  class="split">Contact us </a>
-        <a href="#about">Project </a>
-      </div>
+        <a href="./C-programing/c-intro.html">About</a>
+        <a href="#contact">Shop</a>
+        <a href="./java_programing/intro.html">Blog </a>
+        <a href="./Contact-form/contact-us.html" class="split">Contact </a>
+        <img src="./img/search image.png" class="search" />
+        <img src="./img/shopping-cart.png" class="cart" />
+        <span class="B-name mnu">Menu</span>
+        <img src="./img/menu.png" class="cart" />
+
+    </div>
+    <div class="info">
+        <span class="container-txt">Spacial offer on Sale </span>
+        <br/>
+        <br/>
+        <span class="product-info">realme Book(slim) Core i3 11th Gen - (8 GB/256 Gb SSD /Windows 10 Home) <br/>RMNB1001 Thin and Light Laptop (14 inch,Real Gray, 1.38 kg With Ms Office )
+        <br/>
+        <br/>
+        Special Prize Only at ₹34,999 /- <del>₹54,999</del>
+        <b>36% off</b>
+        <br/>
+        <br/>
+        <b>4.4 ★</b>
+     
+        
+        <button class="btn">
+            Buy Now
+        </button>
+        <a href="#watch" class="g-info">Get more info</a>
+        </span>
+    </div>
+
+    <div class="img-container">
+
+
+
+        <img src="https://rukminim1.flixcart.com/image/416/416/ksez24w0/computer/u/2/h/rmnb1001-thin-and-light-laptop-realme-original-imag5zhgby9wed5u.jpeg?q=70" />
+
+
+
+    </div>
+
+<div class="delivary">
+    <div>
+    <img src="./img/delivery-truck.png" class="f-img"/>
+    <span style="font-size: 27px; font-weight:bold;">Fastest Delivary</span>
+    <br/>
+    <span style="font-weight:bold;">Fastest delivary at your doorestep</span>&nbsp;&nbsp;|
+ </div>
+    <div>
+        
+    </div>
+
+</div>
 </body>
+
 </html>
